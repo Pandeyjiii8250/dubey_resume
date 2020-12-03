@@ -1,0 +1,100 @@
+body {
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    /* line-height: 2; */
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+span{
+    /* font-family: 'Courier New'; */
+
+}
+
+h1, h2{
+    /* font-family: sans-serif; */
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 30px;
+}
+
+h3{
+    color:#3cea69;
+    font-size: 25px;
+}
+
+h4{
+    color: #76ebf7;
+    font-size: 20px;
+}
+
+img{
+    width:25%;
+}
+
+pre{
+   font-size: 15px; 
+}
+hr{
+    width: 10%;
+    border: dotted;
+    height: 1px;
+    border-bottom: none;
+}
+.img-container{
+    /* float: left; */
+    width: 45%;
+    /* height: 715px; */
+}
+
+.main-content{
+    position: absolute;
+    right: 0;
+    width: 55%;
+    top: 0;
+    padding:4px;
+    text-align: left;
+}
+
+.edu, .exp{
+    width: 50%;
+}
+
+.project{
+    position: absolute;
+    width: 50%;
+    height:620px;
+    right: 0;
+    top: 503px;
+}
+
+.skills{
+    width: 50%;
+    height:620px;
+    position: absolute;
+    right: 0;
+    top: 1179px;
+}
+.exp{
+    margin-top:30px;
+}
+.short-am{
+    color:#3cea69;
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+
+.my-work p{
+    width:20.5rem;
+}
+
+.img-container img{
+    width: 90%;
+    height: 1000px;
+}
