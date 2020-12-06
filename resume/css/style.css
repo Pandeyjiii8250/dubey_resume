@@ -7,10 +7,6 @@ body {
     /* font-family: 'Times New Roman', Times, serif; */
 }
 
-span{
-    /* font-family: 'Courier New'; */
-
-}
 
 h1, h2{
     /* font-family: sans-serif; */
@@ -50,7 +46,8 @@ hr{
 }
 .img-container{
     /* float: left; */
-    width: 45%;
+    /* width: 45%; */
+    
     /* height: 715px; */
 }
 
@@ -65,23 +62,7 @@ hr{
 
 .edu, .exp{
     width: 50%;
-}
-/* 
-.project{
-    position: absolute;
-    width: 50%;
-    height:620px;
-    right: 0;
-    top: 503px;
-} */
-
-/* .skills{
-    width: 50%;
-    height:620px;
-    position: absolute;
-    right: 0;
-    top: 1179px;
-} */
+} 
 .exp{
     /* margin-top:30px; */
 }
@@ -97,5 +78,5 @@ hr{
 
 .img-container img{
     width: 90%;
-    height: 1000px;
+    /* height: 1000px; */
 }
