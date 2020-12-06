@@ -3,7 +3,7 @@ body {
     background: black;
     text-align: center;
     font-family: 'Tajawal', sans-serif;
-    /* line-height: 2; */
+    line-height: 2;
     /* font-family: 'Times New Roman', Times, serif; */
 }
 
@@ -34,12 +34,13 @@ h4{
     font-size: 20px;
 }
 
-img{
+.my-work img{
     width:25%;
 }
 
 pre{
-   font-size: 15px; 
+   font-size: 15px;
+   color:white; 
 }
 hr{
     width: 10%;
@@ -54,35 +55,35 @@ hr{
 }
 
 .main-content{
-    position: absolute;
-    right: 0;
-    width: 55%;
-    top: 0;
-    padding:4px;
+    /* position: absolute; */
+    /* right: 0; */
+    /* width: 55%; */
+    /* top: 0; */
+    /* padding:4px; */
     text-align: left;
 }
 
 .edu, .exp{
     width: 50%;
 }
-
+/* 
 .project{
     position: absolute;
     width: 50%;
     height:620px;
     right: 0;
     top: 503px;
-}
+} */
 
-.skills{
+/* .skills{
     width: 50%;
     height:620px;
     position: absolute;
     right: 0;
     top: 1179px;
-}
+} */
 .exp{
-    margin-top:30px;
+    /* margin-top:30px; */
 }
 .short-am{
     color:#3cea69;
