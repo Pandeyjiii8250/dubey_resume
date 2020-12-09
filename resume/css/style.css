@@ -8,12 +8,10 @@ body {
 }
 
 
-h1, h2{
-    /* font-family: sans-serif; */
-}
+
 
 h1{
-    font-size: 50px;
+    font-size: 3rem;
     margin-bottom: 0;
 }
 h2{
@@ -22,61 +20,82 @@ h2{
 
 h3{
     color:#3cea69;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 h4{
     color: #76ebf7;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.my-work img{
-    width:25%;
-}
+
 
 pre{
    font-size: 15px;
    color:white; 
 }
-hr{
-    width: 10%;
-    border: dotted;
-    height: 1px;
-    border-bottom: none;
-}
-.img-container{
-    /* float: left; */
-    /* width: 45%; */
-    
-    /* height: 715px; */
+
+a{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right:  1rem;
+    color: rgb(0, 4, 255);
 }
 
+
+
+/* img container */
+
+.img-container img{
+    width: 100%;   
+}
+
+/* main content  */
+
 .main-content{
-    /* position: absolute; */
-    /* right: 0; */
-    /* width: 55%; */
-    /* top: 0; */
-    /* padding:4px; */
     text-align: left;
 }
 
-.edu, .exp{
-    width: 50%;
-} 
-.exp{
-    /* margin-top:30px; */
-}
 .short-am{
     color:#3cea69;
     margin-top: 0px;
     margin-bottom: 36px;
 }
 
+/* my work  */
 .my-work p{
     width:20.5rem;
 }
 
-.img-container img{
-    width: 90%;
-    /* height: 1000px; */
+.my-work img{
+    width:25%;
+}
+
+.my-work-head{
+    font-size: 19px;
+    color:#3cea69;
+}
+@media (max-width:1080px){
+    .main-content{
+        /* text-align: center; */
+        padding:10%;
+    }
+    .name-heading {
+        padding:15px;
+    }
+
+    .my-work{
+        margin-top: 3rem;
+    }
+    .edu,.project,.exp, .skills{
+        margin-top:2rem;
+    }
+    .short-cuts{
+        background-color: rgb(233, 221, 55);
+        margin: 0 2rem;
+        /* padding:0 0.1rem; */
+    }
+    .quality{
+        font-size:23px;
+    }
 }
